@@ -20,9 +20,15 @@ const Wrapper = styled.div`
     grid-template-rows: 1fr;
   }
 
+  @media (max-width: 778px) {
+    :nth-child(1) {
+      grid-template-rows: auto;
+    }
+  }
+  
   @media (max-width: 688px) {
     :nth-child(1) {
-      grid-template-rows: 100%;
+      grid-template-rows: auto;
       justify-items: start;
     }
   }

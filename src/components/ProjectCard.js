@@ -96,6 +96,10 @@ const Card = styled.div`
   background: #202022;
   color: white;
 
+  img {
+    display: none;
+  }
+
   &:hover {
     transform: scale(1.1);
     transition: all .2s ease-in-out;
@@ -117,7 +121,7 @@ const Card = styled.div`
         pointer-events: none;
     }
 
-    @media (max-width: 658px) {
+  @media (max-width: 658px) {
     width: 100%;
     margin: 0 auto;
   }

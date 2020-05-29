@@ -17,7 +17,6 @@ const Intro = () => (
 )
 
 const IntroContainer = styled.div`
-  height: 100%;
   margin-top: 6rem;
   margin-bottom: 4rem;
 `
