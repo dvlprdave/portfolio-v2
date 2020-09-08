@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 import SectionContainer from './SectionContainer'
 
 import data from '../data/ProjectData'
-import { Title } from './Title'
+import { Title } from '../styled-helpers/Title'
 
 const dataMap = data.map(project => {
   let {title, img, fluidImg, projectSite, description, tech, repo} = project

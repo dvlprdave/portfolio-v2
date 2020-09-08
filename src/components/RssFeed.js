@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { Title } from './Title'
+import { Title } from '../styled-helpers/Title'
 
 const RssFeed = () => {
   const [feed, setFeed] = useState({ items: [] })
@@ -13,11 +13,15 @@ const RssFeed = () => {
     let parser = new Parser();
     
     (async () => {
-      setIsLoading(true)
-      let feed = await parser.parseURL(`${CORS_PROXY}https://papabearcodes.com/rss.xml`);
-
-      setFeed(feed)
-      setIsLoading(false)
+      try{
+        setIsLoading(true)
+        let feed = await parser.parseURL(`${CORS_PROXY}https://papabearcodes.com/rss.xml`);
+  
+        setFeed(feed)
+        setIsLoading(false)
+      } catch (error) {
+        console.log('error gathering RSS feed', error)
+      }
     })();
   }
 
@@ -74,7 +78,7 @@ const PostTitle = styled.p`
   font-size: 1.25rem;
 
   a {
-    transition: ease-in-out 500ms;
+    transition: ease-in-out 300ms;
 
     &:hover {
     color: #414145;

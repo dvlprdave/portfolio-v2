@@ -30,6 +30,7 @@ const IntroStatement = styled.div`
 
 const Main = styled.p`
   max-width: 20ch;
+  margin-bottom: 4rem;
   font-size: 4rem;
   line-height: 4.2rem;
   font-weight: 600;
@@ -48,6 +49,7 @@ const Main = styled.p`
     max-width: 100%;
     font-size: 2rem;
     line-height: 2.2rem;
+    margin-bottom: 3rem;
   }
 `
 

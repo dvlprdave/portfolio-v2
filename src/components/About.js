@@ -4,7 +4,7 @@
 
 import React from 'react'
 import styled from 'styled-components'
-import { Title } from './Title'
+import { Title } from '../styled-helpers/Title'
 
 import Twitter from '../assets/twitter.svg'
 import DevTo from '../assets/devto.svg'

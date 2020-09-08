@@ -5,7 +5,7 @@ export const Title = styled.h1`
   position: relative;
   align-items: center;
   justify-content: ${props => props.blog ? '' : 'center'};
-  color: #414145;
+  color: #949495;
   font-size: 1.8rem;
 
   span:nth-of-type(2):before {
