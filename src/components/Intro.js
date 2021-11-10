@@ -4,9 +4,9 @@ import styled from "styled-components"
 const Intro = () => (
   <IntroContainer>
     <IntroStatement>
-      <Main>Building interactive products with user-centered design</Main>
+      <Main>Digital Craftsman building interactive products</Main>
       <Sub>
-        Hi, I'm David, a Front-end Web Developer from NY whos currently residing in Texas. I've got a blistering passion for
+        Hi, I'm David, a Front-end Web Developer from TX. I've got a blistering passion for
         rich web experiences & web apps. I firmly believe in fostering your
         passion and building things that are an extension of your imagination. I
         find it incredibly rewarding to write code and to witness the
