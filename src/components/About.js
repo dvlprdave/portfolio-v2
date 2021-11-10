@@ -6,7 +6,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Title } from '../styled-helpers/Title'
 
-import Twitter from '../assets/twitter.svg'
 import DevTo from '../assets/devto.svg'
 import Arrow from '../assets/arrow.svg'
 
@@ -45,14 +44,6 @@ const Contact = () => (
     </Wrapper>
 
     <Social>
-      <a 
-        href='https://twitter.com/PapaBearCodes' 
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        <Twitter />
-      </a>
-
       <a 
         href='https://dev.to/papabearcodes' 
         target="_blank" 
@@ -110,10 +101,6 @@ const Email = styled.div`
 const Social = styled.div`
   display: flex;
   justify-content: center;
-
-  svg {
-    margin-right: 10px;
-  }
 `
 
 const StyledLink = styled.a`

@@ -6,7 +6,7 @@ import colorBurst from '../images/color-burst.jpg'
 import coffeeHouse from '../images/coffee-house-screenshot.jpg'
 import lightsOut from '../images/lights-out.jpg'
 
-export default [
+const ProjectData = [
   {
     img: kintsugi,
     fluidImg: 'kintsugi',
@@ -59,3 +59,5 @@ export default [
     repo: 'https://github.com/dvlprdave/lights-out'
   }
 ]
+
+export default ProjectData
