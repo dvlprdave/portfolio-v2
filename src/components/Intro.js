@@ -4,13 +4,11 @@ import styled from "styled-components"
 const Intro = () => (
   <IntroContainer>
     <IntroStatement>
-      <Main>Digital Craftsman building interactive products</Main>
+      <Main>Digital Craftsman Building For The Web</Main>
       <Sub>
-        Hi, I'm David, a Front-end Web Developer from TX. I've got a blistering passion for
-        rich web experiences & web apps. I firmly believe in fostering your
-        passion and building things that are an extension of your imagination. I
-        find it incredibly rewarding to write code and to witness the
-        solution of bringing design into development.
+        <AboutInfo>
+          Hi, I'm David, a Web Engineer, creative, and father form TX. I've got a blistering passion for rich and fun web experiences and I love sharing what I learn through my <span><StyledLink href='https://papabearcodes.com/' target='_blank' rel='noopener noreferrer'>tech blog</StyledLink></span>. I also make coding focused videos on <span><StyledLink href='https://www.youtube.com/channel/UCo-24yU0YmmHOT9T3fdBRyQ' target='_blank' rel='noopener noreferrer'>YouTube</StyledLink></span>.
+        </AboutInfo>
       </Sub>
     </IntroStatement>
   </IntroContainer>
@@ -64,4 +62,25 @@ const Sub = styled.p`
     padding: 0;
   }
 `
+
+const AboutInfo = styled.div`
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 786px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+`
+const StyledLink = styled.a`
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1px;
+  transition: ease-in-out 400ms;
+
+  &:hover {
+    color: gray;
+  }
+`
+
 export default Intro
