@@ -43,7 +43,7 @@ const Roles = () => (
 )
 
 const Wrapper = styled.div`
-  margin: 4rem 0;
+  margin: 3rem 0;
 
   @media (max-width: 786px) {
     flex-direction: column;
@@ -59,10 +59,15 @@ const Role = styled.div`
   align-items: baseline;
   justify-content: space-between;
   margin-bottom: 2rem;
+
+  @media (max-width: 730px) {
+    flex-direction: column;
+  }
 `
 
 const Company = styled.p`
   font-size: 3rem;
+  line-height: 3rem;
 `
 const Position = styled.p`
    font-size: 1.25rem;
