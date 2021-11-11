@@ -76,6 +76,7 @@ const Position = styled.p`
 const Social = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 5rem;
 `
 
 export default Roles
