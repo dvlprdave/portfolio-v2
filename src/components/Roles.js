@@ -4,9 +4,9 @@
 
 import React from 'react'
 import styled from 'styled-components'
-import { Title } from '../styled-helpers/Title'
+import { Title } from 'styled-helpers/Title'
 
-import DevTo from '../assets/devto.svg'
+import DevTo from 'assets/devto.svg'
 
 const Roles = () => (
   <>

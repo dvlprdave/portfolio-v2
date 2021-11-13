@@ -1,10 +1,10 @@
 // Project images
-import kintsugi from '../images/kintsugi.png'
-import agency from '../images/agency.jpg'
-import merlin from '../images/merlins-marker.jpg'
-import colorBurst from '../images/color-burst.jpg'
-import coffeeHouse from '../images/coffee-house-screenshot.jpg'
-import lightsOut from '../images/lights-out.jpg'
+import kintsugi from 'images/kintsugi.png'
+import agency from 'images/agency.jpg'
+import merlin from 'images/merlins-marker.jpg'
+import colorBurst from 'images/color-burst.jpg'
+import coffeeHouse from 'images/coffee-house-screenshot.jpg'
+import lightsOut from 'images/lights-out.jpg'
 
 const ProjectData = [
   {

@@ -1,10 +1,10 @@
 import React from 'react'
 
-import ProjectCard from './ProjectCard'
-import SectionContainer from './SectionContainer'
+import ProjectCard from 'components//ProjectCard'
+import SectionContainer from 'components/SectionContainer'
 
-import data from '../data/ProjectData'
-import { Title } from '../styled-helpers/Title'
+import data from 'data/ProjectData'
+import { Title } from 'styled-helpers/Title'
 
 const dataMap = data.map(project => {
   let {title, img, fluidImg, projectSite, description, tech, repo} = project
