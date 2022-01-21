@@ -6,7 +6,7 @@ const Intro = () => (
     <IntroStatement>
       <Main>Digital Craftsman Building For The Web</Main>
       <Sub>
-        Hi, I'm David, a Web Engineer, creative, and father form TX. I've got a
+        Hi, I'm David, a Web Engineer, creative, and father from TX. I've got a
         blistering passion for rich and fun web experiences and I love sharing
         what I learn through my{' '}
         <span>
